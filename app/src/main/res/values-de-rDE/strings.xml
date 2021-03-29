@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kaloriendefizit</string>
+
+
+    <string name="title_activity_stats">StatsActivity</string>
+    <string name="tab_text_weight">Gewicht</string>
+    <string name="tab_text_eaten">gegessen</string>
+    <string name="tab_text_sport">verbrannt</string>
+
+    <string name="bmi_info_title">Body-Mass-Index (BMI)</string>
+    <string name="bmi_info_message_text">Der BMI stellt lediglich einen groben Richtwert und fällt je Alter, Geschlecht und Statur des Körpers unterschiedlich aus.
+        Bei einem Kraftsportler kann dieser Wert auch gänzlich falsch interpretiert werden, aufgrund des höheren Muskelanteils.
+        \n\nFür ein Normalgewicht sollte dieser Wert laut der Weltgesundheitsorganisation (WHO) zwischen 18,5 und 24,9 liegen.</string>
+    <string name="base_info_title">Grundumsatz</string>
+    <string name="base_info_message_text">Dies ist die Energie in Kalorien (kcal) die dein Körper täglich benötigt, um alle lebensnotwendigen Aufgaben zu erledigen.
+        Dieser errechnete Wert ist relativ genau und weicht nur geringfügig ab. Als Grundlage zur Berechnung dient deine Körpergröße, dein Gewicht, das Alter, sowie dein Geschlecht (Harris-Benedict-Formel).</string>
+    <string name="performance_info_title">Leistungsumsatz</string>
+    <string name="performance_info_message_text">Der Leistungsumsatz wird auf deinen Grundumsatz hinzugerechnet. Dies ist die Energie die du zusätzlich durch deine Tätigkeit im Beruf/Schule
+        oder als Freizeitaktivität noch verbrauchst. Dieser errechnete Wert ist nur eine grobe Schätzung, die je nach Art der Aktivität und Intensität stark Abweichen kann.</string>
+    <string name="calories_deficit_info_title">Täglicher Kaloriendefizit</string>
+    <string name="calories_deficit_info_message_text">An dieser Stelle kannst du Einstellen, wie viel Kalorien du täglich einsparen möchtest, um deinem Wunschgewicht näher zu kommen.
+        Empfohlen wird hierbei ein Wert von ca. 400-500 kcal täglich von deinem Gesamtumsatz.</string>
+    <string name="tab_text_compare_images">Vergleich</string>
+    <string name="begin_image_fragment_text">Füge optional ein Bild von dir hinzu, um deinen Erfolg später in einem vorher/ nachher Vergleich anzusehen.</string>
+    <string name="dialog_delete_text_message">Tageseintrag wirklich löschen?</string>
+    <string name="delete_button_text">löschen</string>
+    <string name="cancel_button_text">Abbrechen</string>
+    <string name="info_dialog_text_title">Information</string>
+    <string name="info_dialog_message_text">Deine Einstellungen kannst du jederzeit über das Menü anpassen.</string>
+    <string name="activity_start_title">Kaloriendefizit</string>
+    <string name="activity_start_cardview">Erreiche dein Wunschgewicht jetzt!</string>
+    <string name="activity_start_button">starten</string>
+    <string name="date_text">Datum:</string>
+    <string name="weight_in_unit">Gewicht in kg:</string>
+    <string name="activity_add_day_calorie_deficit">Kaloriendefizit (heute):</string>
+    <string name="activity_add_day_dayform_image">Tagesform (Bild):</string>
+    <string name="activity_overview_bmi">Dein BMI-Wert</string>
+    <string name="activity_overview_basevalue">Grundumsatz (kcal)</string>
+    <string name="activity_overview_performancevalue">Leistungsumsatz (kcal)</string>
+    <string name="activity_overview_calorie_deficit">Kaloriendefizit (kcal)</string>
+    <string name="activity_overview_title">Errechnete Werte auf Basis der Eingabedaten</string>
+    <string name="calories_overview_description">Bezeichnung</string>
+    <string name="delete_item_layout_messagetext">Tageseintrag wirklich löschen?</string>
+
+    <string name="entry_dialog_description">Bezeichnung</string>
+    <string name="entry_dialog_unit">Menge:</string>
+    <string name="add_button_text">hinzufügen</string>
+    <string name="entry_dialog_description_hint">Käse</string>
+    <string name="entry_gram_dialog_description">Bezeichnung</string>
+
+    <string name="fragment_activity_data_title">Aktivitäts Angaben</string>
+    <string name="fragment_activity_data_i_go">Ich gehe</string>
+    <string name="fragment_activity_data_text_1">ausschließlich sitzend oder liegend meiner Tätigkeit nach (fast keine Bewegung im Alltag)</string>
+    <string name="fragment_activity_data_text_2">überwiegend sitzend mit kaum Freizeitaktivitäten meiner Tätigkeit nach (Bürokaufmann/frau)</string>
+    <string name="fragment_activity_data_text_3">überwiegend sitzend mit gelegentlichen Freizeitaktivitäten meiner Tätigkeit nach (Student/in)</string>
+    <string name="fragment_activity_data_text_4">überwiegend gehend oder stehend meiner Tätigkeit nach (Verkäufer/in)</string>
+    <string name="fragment_activity_data_text_5">überwiegend einer körperlich anstregenden Tätigkeiten nach (Fließbandarbeiter)</string>
+
+    <string name="next_button_text">weiter</string>
+    <string name="fragment_begin_image_title">Bild hochladen</string>
+    <string name="save_button_text">speichern</string>
+
+    <string name="fragment_personal_data_title">Persönliche Daten</string>
+    <string name="fragment_personal_data_gender">Geschlecht</string>
+    <string name="fragment_personal_data_woman">Weiblich</string>
+    <string name="fragment_personal_data_man">Männlich</string>
+    <string name="fragment_personal_data_bodysize_in_unit">Körpergröße in cm</string>
+    <string name="fragment_personal_data_bodysize_hint">174</string>
+    <string name="fragment_personal_data_weight_in_unit">Gewicht in kg</string>
+    <string name="fragment_personal_data_age">Alter in Jahren</string>
+
+    <string name="sport_calories_overview_description">Bezeichnung</string>
+    <string name="sport_calories_overview_sport">Sport</string>
+
+    <string name="sportentry_dialog_typeofsport">Sportart</string>
+    <string name="sportentry_dialog_jogging">Joggen</string>
+    <string name="sportentry_dialog_calories_burnt">verbrannte \nKalorien:</string>
+
+    <string name="ok_button_text">OK</string>
+
+    <string name="weight_dialog_weight_unit">kg</string>
+    <string name="calories_overview_eaten">Essen</string>
+
+    <string name="summary_overview_title">Übersicht</string>
+    <string name="summary_overview_performance_value">Leistungsumsatz:</string>
+    <string name="summary_overview_calorie_deficit">Tageskaloriendefizit:</string>
+    <string name="summary_overview_subtotal">Zwischensumme:</string>
+    <string name="summary_overview_eaten_in_total">Summe (gegessen):</string>
+    <string name="summary_overview_burnt_by_sport">Verbrannt (Sport):</string>
+    <string name="summary_overview_remaining_today">Heute noch übrig:</string>
+
+    <!-- im code -->
+    <string name="java_overview_fragment_total_savings">Insgesamt eingespart:</string>
+    <string name="java_overview_fragment_total">Insgesamt:</string>
+    <string name="java_overview_fragment_Toast_settings_saved">Einstellungen wurden übernommen</string>
+    <string name="java_overview_fragment_camera_permission_denied">Kamerazugriff verweigert</string>
+
+    <string name="before_after_compare_fragment_there_was_no_image_for">Kein Bild für den </string>
+    <string name="before_after_compare_fragment_found"> gefunden.</string>
+    <string name="before_after_compare_fragment_no_data_available_for_the_day">Keine Daten für den Tag vorhanden.</string>
+
+    <string name="stats_calories_eaten_fragment_kcal_eaten">Kcal gegessen</string>
+    <string name="stats_calories_eaten_fragment_burnt_by_sport">Durch Sport verbrannt</string>
+    <string name="stats_calories_eaten_fragment_weight_in_unit">Gewicht in kg</string>
+
+    <string name="add_day_entry_activity_weight_in_unit">Gewicht in kg:</string>
+    <string name="weight_unit">kg</string>
+    <string name="add_day_entry_activity_eating"> (Essen):</string>
+    <string name="add_day_entry_activity_burnt_by_sport"> Verbrannt (Sport):</string>
+    <string name="add_day_entry_activity_a_new_data_record_was_created">Ein neuer Datensatz wurde angelegt</string>
+    <string name="add_day_entry_activity_oops">Ooops.</string>
+    <string name="add_day_entry_activity_please_fill_in_all_fields">Bitte alle Felder ausfüllen</string>
+
+    <!-- im code-->
+    <string name="java_overview_activity_the_entry_does_not_exist_however_you_can_add_the_day_via_the_menu">Der Eintrag existiert nicht. Du kannst den Tag jedoch über das Menü hinzufügen.</string>
+    <string name="java_overview_activity_day_entry_successfully_delted">Tageseintrag erfolgreich gelöscht.</string>
+    <string name="java_overview_activity_ops_an_error_during_delete">Ooops ein Fehler beim löschen!</string>
+    <string name="java_overview_activity_there_was_no_entry_for_the">Kein Eintrag für den </string>
+    <string name="java_overview_activity_found"> gefunden.</string>
+    <string name="java_overview_activity_you_must_first_add_data_to_view_statistics">Du musst erst Daten hinzufügen, um eine Statistik sehen zu können!</string>
+    <string name="java_overview_activity_so_you_have_normal_weight">du hast somit: Normalgewicht</string>
+    <string name="java_overview_activity_so_you_are_overweight">du hast somit: Übergewicht</string>
+    <string name="java_overview_activity_you_have_obesity">du hast Adipositas</string>
+    <string name="java_overview_activity_your_are_underweight">du bist im Untergewicht</string>
+    <string name="java_overview_activity_your_value_is">Dein Wert beträgt </string>
+    <string name="java_overview_activity_and"> und </string>
+    <string name="java_overview_activity_wipe_the_card_to_the_left_or_right">Wische die Karten nach links oder rechts.</string>
+    <string name="java_settings_activity_error">Fehler</string>
+    <string name="java_settings_activity_please_fill_in_the_form_completely_and_click_on_continue">Bitte Formular vollständig ausfüllen und auf weiter klicken</string>
+
+    <string name="menu_settings">Einstellungen</string>
+    <string name="fragment_personal_data_weight_hint">80</string>
+    <string name="overview_activity_this_entry_does_not_exist">Dieser Eintrag existiert nicht.</string>
+
+    <string name="fragment_personal_data_show_privacy_police">Datenschutzerklärung anzeigen</string>
+
+</resources>

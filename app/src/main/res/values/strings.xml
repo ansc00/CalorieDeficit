@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">Calorie deficit</string>
+
+
+    <string name="title_activity_stats">StatsActivity</string>
+    <string name="tab_text_weight">Weight</string>
+    <string name="tab_text_eaten">eaten</string>
+    <string name="tab_text_sport">burnt</string>
+
+    <string name="bmi_info_title">Body-Mass-Index (BMI)</string>
+    <string name="bmi_info_message_text">The BMI is only a rough guideline and varies according to age, sex and physique of the body.
+        In the case of a strength athlete, this value can also be completely misinterpreted due to the higher proportion of muscle.
+        According to the World Health Organization (WHO), this value should be between 18.5 and 24.9 for a normal weight.</string>
+    <string name="base_info_title">Basal metabolic rate</string>
+    <string name="base_info_message_text">This is the energy in calories (kcal) that your body needs every day to perform all vital tasks.
+        This calculated value is relatively accurate and differs only slightly. The basis for the calculation is your height, weight, age and sex (Harris-Benedict formula).</string>
+    <string name="performance_info_title">Performance metabolic rate</string>
+    <string name="performance_info_message_text">The performance metabolic rate is added to your basal metabolic rate. This is the energy you additionally receive from your activity in your profession/school
+        or still consumed as a leisure activity. This calculated value is only a rough estimate, which may vary considerably depending on the type of activity and intensity.</string>
+    <string name="calories_deficit_info_title">Daily calorie deficit</string>
+    <string name="calories_deficit_info_message_text">At this point you can set how many calories you want to save each day to get closer to your desired weight.
+        We recommend a value of approx. 400-500 kcal daily from your total turnover.</string>
+    <string name="tab_text_compare_images">Compare</string>
+    <string name="begin_image_fragment_text">Optionally add a picture of yourself to see your success later in a before/after comparison.</string>
+    <string name="dialog_delete_text_message">Do you really want to delete this day entry?</string>
+    <string name="delete_button_text">delete</string>
+    <string name="cancel_button_text">cancel</string>
+    <string name="info_dialog_text_title">information</string>
+    <string name="info_dialog_message_text">You can adjust your settings at any time via the menu.</string>
+
+    <string name="activity_start_title">Calorie deficit</string>
+    <string name="activity_start_cardview">Reach your desired weight now!</string>
+    <string name="activity_start_button">Start</string>
+    <string name="date_text">Date:</string>
+    <string name="weight_in_unit">Weight in lbs:</string>
+
+    <string name="activity_add_day_calorie_deficit">Calorie deficit (today):</string>
+    <string name="activity_add_day_dayform_image">Form (day picture):</string>
+
+    <string name="activity_overview_bmi">Your BMI-value</string>
+    <string name="activity_overview_basevalue">Basal met. rate (kcal)</string>
+    <string name="activity_overview_performancevalue">Perf. m. r. (kcal)</string>
+    <string name="activity_overview_calorie_deficit">Calorie deficit (kcal)</string>
+    <string name="activity_overview_title">Calculated values based on the input data</string>
+    <string name="calories_overview_description">Title</string>
+    <string name="delete_item_layout_messagetext">Do you really want to delete this day entry?</string>
+
+    <string name="entry_dialog_description">Title</string>
+    <string name="entry_dialog_unit">Quantity:</string>
+    <string name="add_button_text">add</string>
+    <string name="entry_dialog_description_hint">cheese</string>
+    <string name="entry_gram_dialog_description">title</string>
+
+    <string name="fragment_activity_data_title">Activity information</string>
+    <string name="fragment_activity_data_i_go">I go</string>
+    <string name="fragment_activity_data_text_1">exclusively sitting or lying after my activity (almost no movement in everyday life)</string>
+    <string name="fragment_activity_data_text_2">predominantly sitting with hardly any leisure activities according to my occupation (office clerk)</string>
+    <string name="fragment_activity_data_text_3">predominantly sitting with occasional leisure activities according to my occupation (student)</string>
+    <string name="fragment_activity_data_text_4">mainly walking or standing after my activity (salesperson)</string>
+    <string name="fragment_activity_data_text_5">predominantly a physically demanding job (assembly line worker)</string>
+
+    <string name="next_button_text">next</string>
+    <string name="fragment_begin_image_title">Image upload</string>
+    <string name="save_button_text">save</string>
+
+    <string name="fragment_personal_data_title">Personal data</string>
+    <string name="fragment_personal_data_gender">Gender</string>
+    <string name="fragment_personal_data_woman">woman</string>
+    <string name="fragment_personal_data_man">man</string>
+    <string name="fragment_personal_data_bodysize_in_unit">Bodysize in feet and inches</string>
+    <string name="fragment_personal_data_bodysize_hint">5</string>
+    <string name="fragment_personal_data_weight_in_unit">Weight in lbs</string>
+    <string name="fragment_personal_data_age">Age in years</string>
+
+    <string name="sport_calories_overview_description">title</string>
+    <string name="sport_calories_overview_sport">Sport</string>
+
+    <string name="sportentry_dialog_typeofsport">Type of sport</string>
+    <string name="sportentry_dialog_jogging">Jogging</string>
+    <string name="sportentry_dialog_calories_burnt">burnt calories:</string>
+
+    <string name="ok_button_text">OK</string>
+
+    <string name="weight_dialog_weight_unit">lbs</string>
+    <string name="calories_overview_eaten">eaten</string>
+
+    <string name="summary_overview_title">Overview</string>
+    <string name="summary_overview_performance_value">Performance met. rate:</string>
+    <string name="summary_overview_calorie_deficit">Daily calories deficit:</string>
+    <string name="summary_overview_subtotal">Subtotal:</string>
+    <string name="summary_overview_eaten_in_total">Sum (eaten):</string>
+    <string name="summary_overview_burnt_by_sport">Burnt (sport):</string>
+    <string name="summary_overview_remaining_today">Remaining today:</string>
+
+    <!-- im code -->
+    <string name="java_overview_fragment_total_savings">total savings:</string>
+    <string name="java_overview_fragment_total">Total:</string>
+    <string name="java_overview_fragment_Toast_settings_saved">settings saved</string>
+    <string name="java_overview_fragment_camera_permission_denied">camera permission denied</string>
+
+    <string name="before_after_compare_fragment_there_was_no_image_for">there was no image for</string>
+    <string name="before_after_compare_fragment_found"> found.</string>
+    <string name="before_after_compare_fragment_no_data_available_for_the_day">no data available for the day.</string>
+
+    <string name="stats_calories_eaten_fragment_kcal_eaten">Kcal eaten</string>
+    <string name="stats_calories_eaten_fragment_burnt_by_sport">burnt by sport</string>
+    <string name="stats_calories_eaten_fragment_weight_in_unit">Weight in lbs</string>
+
+    <string name="add_day_entry_activity_weight_in_unit">Weight in lbs:</string>
+    <string name="weight_unit">lbs</string>
+    <string name="add_day_entry_activity_eating"> (eaten):</string>
+    <string name="add_day_entry_activity_burnt_by_sport">burnt by Sport:</string>
+    <string name="add_day_entry_activity_a_new_data_record_was_created">a new data record was created</string>
+    <string name="add_day_entry_activity_oops">Ooops.</string>
+    <string name="add_day_entry_activity_please_fill_in_all_fields">please fill in all fields</string>
+
+    <!-- im code-->
+    <string name="java_overview_activity_the_entry_does_not_exist_however_you_can_add_the_day_via_the_menu">the entry does not exist. However you can add the day via the menu.</string>
+    <string name="java_overview_activity_day_entry_successfully_delted">day entry successfully deleted.</string>
+    <string name="java_overview_activity_ops_an_error_during_delete">Ops an error during delete!</string>
+    <string name="java_overview_activity_there_was_no_entry_for_the">there was no entry for the</string>
+    <string name="java_overview_activity_found"> found.</string>
+    <string name="java_overview_activity_you_must_first_add_data_to_view_statistics">You must first add data to view statistics!</string>
+    <string name="java_overview_activity_so_you_have_normal_weight">so you have normal weight</string>
+    <string name="java_overview_activity_so_you_are_overweight">so you are overweight</string>
+    <string name="java_overview_activity_you_have_obesity">you have obesity</string>
+    <string name="java_overview_activity_your_are_underweight">you are underweight</string>
+    <string name="java_overview_activity_your_value_is">your value is</string>
+    <string name="java_overview_activity_and"> and </string>
+    <string name="java_overview_activity_wipe_the_card_to_the_left_or_right">Wipe the card to the left or right.</string>
+    <string name="java_settings_activity_error">Error</string>
+    <string name="java_settings_activity_please_fill_in_the_form_completely_and_click_on_continue">please fill all fields correctly and click on next</string>
+    <string name="menu_settings">Settings</string>
+    <string name="fragment_personal_data_weight_hint">180</string>
+    <string name="overview_activity_this_entry_does_not_exist">This entry does not exist</string>
+    <string name="fragment_personal_data_show_privacy_police">Show privacy policy</string>
+</resources>

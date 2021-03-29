@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:isScrollContainer="true"
+    android:background="@drawable/gradient_bg"
+    tools:context=".OverviewActivity"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_overview_title"
+        android:padding="15dp"
+        android:gravity="start"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp"
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_overview_bmi"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_weight="2"
+            />
+
+        <TextView
+            android:id="@+id/bmiValueTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="23.7"
+            android:gravity="end"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+
+
+
+        <ImageView
+            android:id="@+id/bmiInfoImageView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ic_baseline_info_24" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp"
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_overview_basevalue"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_weight="2"
+            />
+
+        <TextView
+            android:id="@+id/baseValueTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="2300"
+            android:gravity="end"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_weight="1"
+            />
+
+        <ImageView
+            android:id="@+id/baseInfoImageView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ic_baseline_info_24" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp"
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_overview_performancevalue"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            />
+
+        <TextView
+            android:id="@+id/performanceValueTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="2800"
+            android:gravity="end"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_weight="1"
+            />
+
+        <ImageView
+            android:id="@+id/performanceInfoImageView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ic_baseline_info_24"  />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp"
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_overview_calorie_deficit"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:layout_weight="2"
+            />
+
+
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_weight="1" >
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <EditText
+        android:id="@+id/spendingKcalValueEditText"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+
+        android:layout_weight="2"
+        android:gravity="end"
+        android:inputType="number"
+
+        android:text="5009"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        />
+
+
+
+
+</LinearLayout>
+
+    <ImageView
+        android:id="@+id/spendingKcalInfoImageView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/ic_baseline_info_24" />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+
+        <ImageView
+            android:id="@+id/overviewLeftArrowIV"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_baseline_arrow_left_24" />
+
+        <FrameLayout
+            android:id="@+id/overviewFragmentPlaceholder"
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"
+
+            />
+
+        <ImageView
+            android:id="@+id/overviewRightArrowIV"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_baseline_arrow_right_24" />
+
+    </LinearLayout>
+
+<!--
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-8523604845672709/8996812255">
+
+    </com.google.android.gms.ads.AdView>
+    --> <!--ads:adUnitId="ca-app-pub-3940256099942544/6300978111"> -->
+
+
+</LinearLayout>
+
+
+</ScrollView>

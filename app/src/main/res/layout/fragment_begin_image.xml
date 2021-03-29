@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/personalDataFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    tools:context=".settingsfragments.BeginImageFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment_begin_image_title"
+        android:textSize="26sp"
+        android:gravity="center"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="12dp"
+        app:cardUseCompatPadding="false"
+        android:layout_margin="12dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="@string/begin_image_fragment_text"
+            android:textSize="18sp"
+            />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardCornerRadius="12dp">
+
+    <ImageView
+        android:id="@+id/pictureImageView"
+        android:layout_width="289dp"
+        android:layout_height="374dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/img_placeholder"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/camImageView"
+        android:layout_width="137dp"
+        android:layout_height="121dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="124dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:padding="20dp"
+        android:scaleType="fitXY"
+        android:src="@android:drawable/ic_menu_camera"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/pictureImageView" />
+
+</androidx.cardview.widget.CardView>
+
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/dateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="###" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/beginImageCancelButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="15dp"
+            android:background="@drawable/round_btn"
+            android:layout_weight="1"
+            android:text="@string/cancel_button_text"/>
+
+        <Button
+            android:id="@+id/beginImageSaveButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:background="@drawable/round_btn"
+
+            android:text="@string/save_button_text"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:visibility="invisible"/>
+
+
+
+
+</LinearLayout>
