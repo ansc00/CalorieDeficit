@@ -12,8 +12,11 @@ Für die sportlichen Aktivitäten gibt es ebenso ein Feld, um dies festzuhalten.
 
 Über die Statistikanzeige kannst du den Verlauf deines Gewichtes begutachten. Ebenso wird dir deine Kalorienzufuhr über die Zeit angezeigt, sodass du bei einem Erfolg den Kurs weiter beibehalten kannst oder ggf. korrigieren. 
 
-![plot](https://github.com/ansc00/CalorieDeficit/blob/main/images/image1.PNG)
+
+<p align="left">
+  <img src="https://github.com/ansc00/CalorieDeficit/blob/main/images/image1.PNG" width="200" height="400">
+  <img src="https://github.com/ansc00/CalorieDeficit/blob/main/images/image2.PNG" width="200" height="400">
+</p>
 
 
-
-Play Store: >> https://play.google.com/store/apps/details?id=schaefer.anatoli.caloriedeficit&hl=de&gl=US
+Get 4 Free @ Google Play Store >> https://play.google.com/store/apps/details?id=schaefer.anatoli.caloriedeficit&hl=de&gl=US
